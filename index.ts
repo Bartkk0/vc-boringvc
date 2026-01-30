@@ -19,10 +19,10 @@ export default definePlugin({
 
         // Hide vc nicks
         {
-            find: ".usernameSpeaking]:",
+            find: "LARGE?38:24",
             replacement: {
-                match: /\[null.*?:(\i.\i.getName\(\i\)),/,
-                replace: "[$1,"
+                match: /\[null!=\i\?\i:(\i\.\i\.getName\(\i\))/,
+                replace: "[$1"
             }
         }
     ]
